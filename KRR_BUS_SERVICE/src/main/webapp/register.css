@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+body{
+   
+    background-image: url(photo/v37_3.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.frm{
+    width: 25%;
+    margin: 150px 60% auto 15%;
+    /* padding-top: 05px; */
+    padding-bottom: 10px;
+    background-color:rgba(62, 63, 63, 0.5);
+    border-radius: 15px;
+    
+}
+
+h3{
+   padding-top: 15px;
+   text-align: center;
+   font-size: 30px;
+   color:rgb(249, 250, 233);
+}
+
+.na{
+    margin-top: -20px;
+}
+
+.na label{
+    
+    margin-left: 35px;
+    font-size: 25px;
+    color:rgb(250, 252, 253);
+}
+.em,.pa,.pn{
+    margin-top: 10px;
+}
+
+.em label,.pa label,.pn label{   
+    margin-left: 35px;
+    font-size: 25px;
+    color:rgb(250, 252, 253);
+}
+
+input{
+    margin-left: 35px;
+    width: 75%;
+    font-size: 20px;
+}
+
+.bu button{
+    width: 90px;
+    margin-top: 25px;
+    margin-left: 36%;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(250, 252, 253);
+    border: 3px solid rgb(250, 252, 253);
+    background-color:rgba(62, 63, 63, 0.4);
+}
+
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 10px; /* Add some space from the top */
+    margin-left: 35px;
+  }
+
+  /* Style for the lines */
+  .line {
+    width: 110px; /* Width of the line */
+    border: 1.5px solid rgb(254, 252, 252); /* Style of the line */
+    margin: 0 10px; /* Add some space between lines and word */
+  }
+
+  /* Style for the word */
+  .word {
+    font-size: 16px; /* Font size of the word */
+     color:white;
+  }
+
+  .last{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  div span{
+    color:rgb(250, 252, 253);
+    margin-left: 35px;
+  }
+  div a{
+    color:rgb(250, 252, 253);
+  }
+
+
+
+  @media screen and (max-width: 1000px) {
+    .frm {
+        width: 45%; /* Adjust width for smaller screens */
+        margin-top: 100px; /* Adjust margin-top for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .line {
+        width: 32%; /* Width of the line */
+        border: 1.5px solid rgb(254, 252, 252); /* Style of the line */
+        margin: 0 10px; /* Add some space between lines and word */
+      }
+}
+
+  @media screen and (max-width: 800px) {
+    .frm {
+        width: 55%; /* Adjust width for smaller screens */
+        margin-top: 100px; /* Adjust margin-top for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+  @media screen and (max-width: 600px) {
+    .frm {
+        width: 70%; /* Adjust width for smaller screens */
+        margin-top: 100px; /* Adjust margin-top for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+

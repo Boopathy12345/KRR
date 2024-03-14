@@ -1,0 +1,319 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0px;
+    background-color:rgb(223, 227, 227);
+}
+
+.contaner{
+    width: 100%;
+    height: 70vh;
+}
+
+.contaner img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.nav{
+    width: 100%;
+    height: 2.5em;
+    background-color: rgba(248, 244, 244,0.4);
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav a{
+    text-decoration: none;
+}
+
+.nav .about{
+    margin-left: 05vw;
+    color: rgb(255, 255, 255);
+}
+.nav .content{
+    margin-left: 02vw;
+    color: rgb(255, 255, 255);
+}
+
+.nav .login{
+    margin-left: 70vw;
+    color: rgb(255, 255, 255);
+}
+
+.nav .register{
+    margin-left: 02vw;
+    color: rgb(255, 255, 255);
+}
+
+.Welocome{
+    position: relative;
+    margin-left: 05vw;
+    margin-top: 7%;
+    color: white;
+    font-size: 1.8em;
+}
+
+.Welocomeline2{
+    position: relative;
+    color:white;
+    bottom: 40px;
+    margin-left: 05vw;
+    font-size: 2.8em;
+}
+
+.Welocomeline3{
+    position: relative;
+    color:white;
+    bottom: 85px;
+    margin-left: 05vw;
+    font-size: 2.4em;
+}
+
+.Welocomeline4{
+    position: relative;
+    color:white;
+    margin-left: 05vw;
+    width: 25%;
+    bottom:110px;
+    font-size: 0.8em;
+}
+.contaner{
+    position: relative;
+}
+
+
+.serachbox{
+    width: 55%;
+    height: 135px;
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 70px;
+    border-radius: 15px;
+    /* border:2px solid black; */
+}
+
+.serachboxline1{
+    color:rgb(65, 27, 101);
+    text-align: center;
+    font-size:xx-large;
+    padding-top: 15px;
+}
+
+.serachboxform{
+    width: 90%;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
+    bottom:25px;
+    left: 110px; 
+   
+}
+
+.serachboxform input,button{
+    padding: 13px;
+}
+.serachboxform input{
+    background-color:rgba(218, 218, 214, 0.937);
+}
+
+.serachboxform .input1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom:2px solid black;
+}
+
+.serachboxform .input2{
+    position: relative;
+    right: 5px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.serachboxform .input3{
+    position: relative;
+    right: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 12.32px;
+
+}
+.serachboxform .input4{
+    position: relative;
+    right: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgba(5, 45, 98, 0.932);
+    color:white;
+}
+
+.marqueetag{
+    /* border:2px solid black; */
+    position: relative;
+    bottom:60px;
+    height: 2em;
+}
+.marqueetag h4{
+    color:rgb(18, 17, 17);
+    position: relative;
+    bottom:10px;
+    /* border:2px solid black; */
+}
+
+.rootbox{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid black; */
+}
+
+.rootbox .line1{
+    width: 100%;
+    /* border:1px solid black; */
+    display: flex;
+    height: 90px;
+    position: relative;
+    top: 10px;
+}
+
+.rootbox .line2{
+    width: 100%;
+    /* border:1px solid black; */
+    display: flex;
+    height: 90px;
+    position: relative;
+    top: 10px;
+}
+
+.rootbox .line3{
+    width: 100%;
+    /* border:1px solid black; */
+    display: flex;
+    height: 90px;
+    position: relative;
+    top: 15px;
+}
+
+
+
+ .root1{
+    position: relative;
+    left: 3%;
+    top: 2%;
+    display: flex;
+    /* border:2px solid black; */
+    width: 20%;
+    height: 80px;
+}
+
+.root2 {
+    position: relative;
+    left: 7%;
+    top: 2%;
+    display: flex;
+    /* border:2px solid black; */
+    width: 20%;
+    height: 80px;
+}
+
+.root3 {
+    position: relative;
+    left: 11%;
+    top: 2%;
+    display: flex;
+    /* border:2px solid black; */
+    width: 20%;
+    height: 80px;
+}
+
+
+.root4 {
+    position: relative;
+    left: 15%;
+    top: 2%;
+    display: flex;
+    /* border:2px solid black; */
+    width: 20%;
+    height: 80px;
+}
+
+.root1 img,.root2 img,.root3 img,.root4 img{
+    width: 27%;
+    border-radius:50%;
+}
+
+.root1 .bus1,.root2 .bus2,.root3 .bus3,.root4 .bus4{
+    display: flex;
+    flex-direction: column;
+}
+.root1 h4,.root2 h4,.root3 h4,.root4 h4{
+    /* width: 1em; */
+    padding-left: 10px;
+    height: 1em;
+    /* border:1px solid black; */
+    position: relative;
+    bottom:10px;
+}
+.root1 p,.root2 p,.root3 p,.root4 p{
+    /* border:1px solid black; */
+    padding-left: 10px;
+    position: relative;
+    bottom:40px;
+}
+
+
+
+.detail{
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(223, 227, 227);
+}
+
+.detail_line1,.detail_line2,.detail_line3,.detail_line4,.detail_line5{
+    width: 90%;
+    background-color:white;
+    display: flex;
+    border-bottom:2px solid black;
+    padding-bottom: 2%;
+    background-color:rgb(223, 227, 227);
+
+}
+
+.detail_line_start{
+    flex: 1;
+    padding-right: 5%;
+}
+.detail_line_end{
+    flex: 1;
+    padding-right: 5%;
+}
+
+.footing{
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.footing div{
+    width: 20%;
+    /* border:1px solid white; */
+    row-gap: 50px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
